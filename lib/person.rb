@@ -3,15 +3,15 @@ class Person
     @name
   end
 
-  def name=
-    @name
+  def name=(persons_name)
+    @name=persons_name
   end
 
   def job
     @job
   end
 
-  def job=
-    @job
+  def job=(persons_job)
+    @job=persons_job
   end
 end
